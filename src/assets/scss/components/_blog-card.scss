@@ -1,8 +1,49 @@
+.blog-card {
+  &__label {}
 
-body {
-  color: $c-text-main;
+  &__img {}
+
+  &__title {
+    margin: 1.5rem 0 2rem;
+    font-size: 1.7rem;
+    color: $c-accent;
+  }
+
+  &__excerpt {
+    color: $c-main-text;
+    line-height: 1.8rem;
+  }
 }
 
-p {
-  color: $c-text-main
+.blog-card-footer {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 4rem;
+  color: $c-main-text;
+
+  &__tags {
+    flex: 1 1 50%;
+    padding: 0.5rem 0;
+    color: $c-accent;
+    border-bottom: 1px solid $c-main-text;
+  }
+
+  &__date {
+    flex: 1 1 50%;
+    padding: 0.5rem 0;
+    text-align: right;
+    color: $c-accent;
+    border-bottom: 1px solid $c-main-text;
+  }
+
+  &__comments {
+    flex: 1 1 50%;
+    padding: 0.5rem 0;
+  }
+
+  &__author {
+    flex: 1 1 50%;
+    padding: 0.5rem 0;
+    text-align: right;
+  }
 }
