@@ -1,0 +1,26 @@
+{
+  "name": "xtra-maket-w-nikita-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slavkololo/XTRA-maket-w-NIKITA-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slavkololo/XTRA-maket-w-NIKITA-3/issues"
+  },
+  "homepage": "https://github.com/Slavkololo/XTRA-maket-w-NIKITA-3#readme",
+  "devDependencies": {
+    "sass": "^1.26.10",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "reset-css": "^5.0.1"
+  }
+}
