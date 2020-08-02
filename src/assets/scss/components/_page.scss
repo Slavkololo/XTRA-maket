@@ -1,0 +1,37 @@
+.page {
+  display: flex;
+
+  &_blog {
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  &__header {
+  }
+
+  &__aside {
+    width: 300px;
+    color: white;
+    background: $c-accent;
+
+    padding-right: 2rem;
+  }
+
+  &__main {
+    padding-left: 2rem;
+    flex-grow: 1;
+  }
+
+  &__footer {
+  }
+}
+
+.blog-content {
+  &__list {}
+  &__pagination {}
+}
+
