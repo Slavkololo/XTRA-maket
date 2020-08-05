@@ -1,5 +1,13 @@
-.blog-card {
-  &__label {}
+ .blog-card {
+  &__label {
+    height: 50px;
+    width: 80px;
+
+    background-color: $c-accent;
+    color: white;
+
+    text-align: center;
+  }
 
   &__img {}
 
