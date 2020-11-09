@@ -33,14 +33,35 @@
                 z-index: -1;
             }
         }
-        &__social {
-            
-        }
+    }
+}
+
+.social-links {
+
+    display: flex;
+    margin-bottom: 65px;
+
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+
+        margin-right: 15px;
+        margin-bottom: 15px;
+
+        font-size: 1.4rem;
+        
+        background-color: white;
     }
 
-    .fa-users {
-        font-size: 19px;
-        margin-right: 37px;
-    }
+    &__btn {
+    
+    }    
 
+    &__icon {
+        color: $c-accent;
+    }
 }
