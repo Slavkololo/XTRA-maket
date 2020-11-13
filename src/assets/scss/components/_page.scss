@@ -15,11 +15,11 @@
   }
 
   &__aside {
-    width: 320px;
+    width: 400px;
     color: white;
     background: $c-accent;
 
-    padding-right: 2rem;
+    padding-right: 1rem;
   }
 
   &__main {
@@ -28,6 +28,27 @@
   }
 
   &__footer {
+  }
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 200px;
+  width: 350px;
+
+  margin: 50px 0 70px;
+  justify-content: center;
+  align-items: center;
+
+  &__icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    font-size: 40px;
   }
 }
 
@@ -70,6 +91,15 @@
     color: white;
     background-color: $c-accent;
     border: none;
+    transition: 0.3s;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      background-color: #09b6b6;
+    }
   }
 
   &__icon {
