@@ -1,6 +1,8 @@
 @import "~reset-css";
 @import "variables";
-
+* {
+    box-sizing: border-box;
+}
 @import "components/page";
 @import "components/blog-card";
 @import "components/nav";

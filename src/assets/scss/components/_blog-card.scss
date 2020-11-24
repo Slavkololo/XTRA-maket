@@ -1,7 +1,11 @@
  .blog-card {
-  &__label {
-    height: 50px;
-    width: 80px;
+  position: relative;
+
+  
+  
+  &__label {  
+    position: absolute;
+    padding: 20px 30px;
 
     background-color: $c-accent;
     color: white;
@@ -9,7 +13,17 @@
     text-align: center;
   }
 
-  &__img {}
+  &__main {
+    padding-top: 60px;
+  }
+
+  &__main:hover {
+
+  }
+
+  &__img {
+    
+  }
 
   &__title {
     margin: 1.5rem 0 2rem;
