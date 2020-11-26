@@ -1,8 +1,7 @@
  .blog-card {
   position: relative;
 
-  
-  
+
   &__label {  
     position: absolute;
     padding: 20px 30px;
@@ -15,6 +14,7 @@
 
   &__main {
     padding-top: 60px;
+    border-top: solid 4px $c-accent;
   }
 
   &__main:hover {
@@ -28,12 +28,16 @@
   &__title {
     margin: 1.5rem 0 2rem;
     font-size: 1.7rem;
-    color: $c-accent;
+    color: $c-accented-main;
   }
 
   &__excerpt {
     color: $c-main-text;
     line-height: 1.8rem;
+
+    &_accented {
+      color: $c-accented-main;
+    }
   }
 }
 
