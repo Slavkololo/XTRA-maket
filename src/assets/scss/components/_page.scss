@@ -6,6 +6,9 @@
 
   &__content {
     display: flex;
+
+    margin-left: 500px;
+
     flex-direction: column;
     flex-grow: 1;
     min-height: 100vh;
@@ -18,7 +21,9 @@
   }
 
   &__aside {
-    width: 450px;
+    position: fixed;
+    width: 400px;
+    height: 100vh;
     color: white;
     background: $c-accent;
 
@@ -26,7 +31,8 @@
   }
 
   &__main {
-    padding-left: 2rem;
+    //padding-left: 2rem;
+
     flex-grow: 1;
   }
 
@@ -41,7 +47,7 @@
   height: 200px;
   width: 350px;
 
-  margin: 50px 0 70px;
+  margin: 50px 25px 70px;
   justify-content: center;
   align-items: center;
 
@@ -73,7 +79,9 @@
     width: 40.6%;
     padding: 30px 10px;
   }
-  &__pagination {}
+  &__pagination {
+    margin-top: 100px;
+  }
 }
 
 .search {
