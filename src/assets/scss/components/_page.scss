@@ -8,6 +8,7 @@
     display: flex;
 
     margin-left: 500px;
+    margin-right: 300px;
 
     flex-direction: column;
     flex-grow: 1;
@@ -37,6 +38,11 @@
   }
 
   &__footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: solid 1px $c-main-text;
+  
   }
 }
 
@@ -76,8 +82,9 @@
     justify-content: space-evenly;
   }
   &__item {
-    width: 40.6%;
     padding: 30px 10px;
+    max-width: 450px;
+    
   }
   &__pagination {
     margin-top: 100px;
