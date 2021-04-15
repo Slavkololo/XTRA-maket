@@ -44,6 +44,18 @@
     &_accented {
       color: $c-accented-main;
     }
+
+    &_link {
+      text-decoration: none;
+    }
+
+    &_link:hover {
+      color: $c-accented-main;
+    }
+
+    &_underline {
+      text-decoration: underline;
+    }
   }
 }
 
