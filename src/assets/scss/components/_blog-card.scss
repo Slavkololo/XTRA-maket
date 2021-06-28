@@ -16,7 +16,7 @@
 
   &__main {
     padding-top: 60px;
-    border-top: solid 4px $c-accent;
+    border-top: solid 5px $c-accent;
   }
 
   &__main:hover {
@@ -60,34 +60,25 @@
 }
 
 .blog-card-footer {
-  display: flex;
-  flex-flow: row wrap;
   margin-top: 4rem;
-  color: $c-main-text;
+  
 
-  &__tags {
-    flex: 1 1 50%;
-    padding: 0.5rem 0;
-    color: $c-accent;
-    border-bottom: 1px solid $c-main-text;
+  &_row {
+    
   }
 
-  &__date {
-    flex: 1 1 50%;
-    padding: 0.5rem 0;
-    text-align: right;
-    color: $c-accent;
-    border-bottom: 1px solid $c-main-text;
+  &__cell{
+    display: flex;
+    justify-content: space-between;
+
+    color: $c-main-text;
+
+    &_colored {
+      display: flex;
+      justify-content: space-between;
+
+      color: $c-accented-main;
+    }
   }
 
-  &__comments {
-    flex: 1 1 50%;
-    padding: 0.5rem 0;
-  }
-
-  &__author {
-    flex: 1 1 50%;
-    padding: 0.5rem 0;
-    text-align: right;
-  }
 }
