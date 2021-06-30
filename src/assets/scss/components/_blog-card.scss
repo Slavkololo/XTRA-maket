@@ -39,10 +39,11 @@
 
   &__excerpt {
     color: $c-main-text;
-    line-height: 1.8rem;
+    line-height: 2rem;
 
     &_accented {
       color: $c-accented-main;
+      line-height: 2rem;
     }
 
     &_link {
@@ -61,11 +62,6 @@
 
 .blog-card-footer {
   margin-top: 4rem;
-  
-
-  &_row {
-    
-  }
 
   &__cell{
     display: flex;
@@ -80,5 +76,4 @@
       color: $c-accented-main;
     }
   }
-
 }
