@@ -5,6 +5,7 @@
   &__label {  
     position: absolute;
     padding: 15px 20px;
+    z-index: 2;
 
     background-color: $c-accent;
     color: white;
@@ -17,18 +18,27 @@
   &__main {
     padding-top: 60px;
     border-top: solid 5px $c-accent;
+
+    cursor: pointer;
   }
 
-  &__main:hover {
-
+  &__main:hover> &__figure > &__img {
+    transition: opacity 0.35s, transform 0.35s;
+    opacity: 1;
+    transform: translate3d(-40px,0,0); 
   }
 
   &__figure {
-    
+    background-color: #046c8c;
+    overflow: hidden;
   }
 
   &__img {
-    max-width: 100%;
+    display: block;
+    width: calc(100% + 50px);
+    opacity: .7;
+    transform: translate3d(0,0,0);
+    transition: opacity 0.35s, transform 0.35s;
   }
 
   &__title {
