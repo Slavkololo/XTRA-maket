@@ -22,8 +22,8 @@ a:hover {
   &__content {
     display: flex;
 
-    margin-left: 500px;
-    margin-right: 300px;
+    margin-left: 400px;
+    padding: 80px 100px 25px;
 
     flex-direction: column;
     flex-grow: 1;
@@ -37,14 +37,23 @@ a:hover {
   }
 
   &__aside {
+   // display: flex;
+   // flex-direction: column;
+   // flex-shrink: 2;
     position: fixed;
     width: 400px;
     height: 100vh;
+    padding: 30px;
+    overflow-y: scroll;
     
     color: white;
     background: $c-accent;
 
     padding-right: 3.2rem;
+  }
+
+  &__aside::-webkit-scrollbar {
+    display: none;
   }
 
   &__main {
@@ -62,6 +71,12 @@ a:hover {
   }
 }
 
+.page-aside {
+  &__description {
+    line-height: 2em;
+  }
+}
+
 .site {
   display: flex;
   flex-direction: column;
@@ -69,7 +84,7 @@ a:hover {
   height: 200px;
   width: 350px;
 
-  margin: 50px 25px 80px;
+  margin: 20px 0 80px;
   justify-content: center;
   align-items: center;
 
@@ -209,9 +224,12 @@ a:hover {
     padding: 10px 10px;
     border: solid 1px $c-accent;
     flex-grow: 1;
+    transition: .2s;
 
     &:focus {
       outline: none;
+      box-shadow: 2px 2px 2px 2px #0CC;
+      transition: .2s;
     }
   }
 
