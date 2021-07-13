@@ -44,7 +44,14 @@
   &__title {
     margin: 1.5rem 0 2rem;
     font-size: 1.7rem;
+
     color: $c-accented-main;
+    transition: .35s;
+  }
+
+  &__main:hover > &__title {
+    color: $c-accent;  
+    transition: .35s;
   }
 
   &__excerpt {

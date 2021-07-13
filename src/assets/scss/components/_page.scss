@@ -34,6 +34,7 @@ a:hover {
 
   &__header {
     display: flex;
+    max-width: 980px;
   }
 
   &__aside {
@@ -63,6 +64,7 @@ a:hover {
   }
 
   &__footer {
+    max-width: 980px;
     margin-top: 80px;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -74,6 +76,7 @@ a:hover {
 .page-aside {
   &__description {
     line-height: 2em;
+    font-size: 19px;
   }
 }
 
@@ -110,7 +113,8 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
 
-    justify-content: space-evenly;
+    justify-content: space-between;
+    max-width: 980px;
   }
 
   &__item {
@@ -122,6 +126,7 @@ a:hover {
   &__pagination {
     display: flex;
     justify-content: space-between;
+    max-width: 980px;
     margin-top: 100px;
   }
 }
@@ -277,6 +282,7 @@ a:hover {
 .page-footer {
   display: flex;
   justify-content: space-between;
+  
 
   color: $c-main-text;
 }
