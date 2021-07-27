@@ -35,12 +35,10 @@ a:hover {
   &__header {
     display: flex;
     max-width: 980px;
+    margin-top: -70px;
   }
 
   &__aside {
-   // display: flex;
-   // flex-direction: column;
-   // flex-shrink: 2;
     position: fixed;
     width: 400px;
     height: 100vh;
@@ -73,6 +71,26 @@ a:hover {
   }
 }
 
+ /* @media only screen and (max-width: 1540px) {
+    .blog-content {
+      margin-left: 320px;
+      width: calc(100% - 320px)
+    }
+  } */
+
+  @media only screen and (max-width: 1540px) {
+    .page__aside {
+      width: 320px;
+    }  
+  }
+
+  @media only screen and (max-width: 1540px) {
+    .page__content {
+      margin-left: 320px;
+    }
+  } 
+
+
 .page-aside {
   &__description {
     line-height: 2em;
@@ -85,7 +103,7 @@ a:hover {
   flex-direction: column;
   position: relative;
   height: 200px;
-  width: 350px;
+ // width: 350px;
 
   margin: 20px 0 80px;
   justify-content: center;
@@ -220,10 +238,10 @@ a:hover {
 }
 
 .search {
-  height: 50px;
   max-width: 490px;
   width: 100%;
   display: flex;
+  margin-right: 0px;
         
   &__input {
     padding: 10px 10px;
